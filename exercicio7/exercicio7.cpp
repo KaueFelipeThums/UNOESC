@@ -73,7 +73,7 @@ int main(void)
 
             printf("\n\nO valor total da compra eh %.0f reais e %.2f centavos", nInteiro, nDecimal);
 
-            printf("\n\n%.0f reais equivalem a:\n", nInteiro);
+            printf("\n\n%.0f reais equivale a:\n", nInteiro);
 
             // VERIFICANDO NOTAS DE 100
             i = 0;

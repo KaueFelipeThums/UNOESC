@@ -23,13 +23,13 @@ int main(void)
 
     do
     {
-        printf("\n\nAdivinhe o número mágico [0 a 10]\nInforme um número:");
+        printf("\n\nAdivinhe o numero magico [0 a 10]\nInforme um numero:");
         scanf("%d", &val);
         system("cls || clear");
 
         if (val > 10 || val < 0)
         {
-            printf("Inválido, informe um número entre 0 e 10!");
+            printf("Invalido, informe um numero entre 0 e 10!");
         }
         else
         {

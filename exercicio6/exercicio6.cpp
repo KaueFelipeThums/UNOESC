@@ -28,7 +28,7 @@ int main(void)
             system("cls || clear");
             if (val <= 0)
             {
-                printf("Numero inválido!");
+                printf("Numero invalido!");
             }
 
         } while (val <= 0);

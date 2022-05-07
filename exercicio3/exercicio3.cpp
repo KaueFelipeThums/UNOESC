@@ -15,7 +15,7 @@ int main(void)
 
     setlocale(LC_ALL, "Portuguese");
 
-    int valMin, valMax, n, i, primo, colAtual, qtd = 0;
+    int valMin, valMax, n, i, primo, colAtual, qtd;
     char resp;
 
     do
@@ -66,6 +66,7 @@ int main(void)
 
         // EXIBINDO NUMEROS PRIMOS
         colAtual = 1;
+        qtd = 0;
         while (valMin <= valMax)
         {
             primo = 0;

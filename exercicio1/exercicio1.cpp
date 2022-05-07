@@ -26,17 +26,18 @@ int main(void)
         scanf(" %c%*[^\n]", &categoria);
 
         categoria = toupper(categoria);
-        // GARATIR QUE SEJA INFORMADO A QUANTIDADE MAIOR QUE 0
-        do
-        {
-            printf("Informe a quantidade [Maior que zero]: ");
-            scanf("%d", &quantidade);
-            system("cls || clear");
-        } while (quantidade <= 0);
 
         // VERIFICAR CATEGORIA INFORMADA
         if (categoria == 'A' || categoria == 'B' || categoria == 'C')
         {
+            // GARATIR QUE SEJA INFORMADO A QUANTIDADE MAIOR QUE 0
+            do
+            {
+                printf("Informe a quantidade [Maior que zero]: ");
+                scanf("%d", &quantidade);
+                system("cls || clear");
+            } while (quantidade <= 0);
+
             total++;
             soma = soma + quantidade;
         }
